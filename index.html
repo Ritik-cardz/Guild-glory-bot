@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Guild Glory Bot</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- ================= Loader ================= -->
+
+<div id="loader">
+
+<div class="loader-logo">
+
+⚔
+
+</div>
+
+<h1>
+
+Guild Glory Bot
+
+</h1>
+
+<p>
+
+Dominate Every Guild With Premium Bots
+
+</p>
+
+</div>
+
+<!-- ================= Background ================= -->
+
+<div class="background-blur"></div>
+
+<div class="particles"></div>
+
+<!-- ================= Landing Page ================= -->
+
+<section class="landing">
+
+<div class="landing-content">
+
+<h1 class="title">
+
+Guild <span>Glory</span> Bot
+
+</h1>
+
+<p class="subtitle">
+
+Dominate Every Guild With Premium Bots
+
+</p>
+
+<div class="landing-buttons">
+
+<button id="startBtn" class="start-btn">
+
+Get Started
+
+</button>
+
+<button id="statsBtn" class="stats-btn">
+
+View Stats
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= Stats ================= -->
+
+<section id="stats" class="stats-section">
+
+<h2>
+
+Trusted Worldwide
+
+</h2>
+
+<div class="stats-container">
+
+<div class="stat-box">
+
+<h1>
+
+100K+
+
+</h1>
+
+<p>
+
+Active Users
+
+</p>
+
+</div>
+
+<div class="stat-box">
+
+<h1>
+
+25K+
+
+</h1>
+
+<p>
+
+Guilds Managed
+
+</p>
+
+</div>
+
+<div class="stat-box">
+
+<h1>
+
+99.9%
+
+</h1>
+
+<p>
+
+Server Uptime
+
+</p>
+
+</div>
+
+<div class="stat-box">
+
+<h1>
+
+24/7
+
+</h1>
+
+<p>
+
+Support
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= Select Panel ================= -->
+
+<section id="panelPage" class="panel-page">
+
+<div class="panel-container">
+
+<h1>Select Panel</h1>
+
+<p>Choose Your Bot</p>
+
+<div class="bot-card">
+
+<div class="selected-bot">
+
+<h2 id="botName">4 Bots</h2>
+
+<p id="botGlory">200K Glory</p>
+
+</div>
+
+<select id="botSelect">
+
+<option value="4">4 Bots</option>
+
+<option value="10">10 Bots</option>
+
+<option value="20">20 Bots</option>
+
+<option value="40">40 Bots</option>
+
+<option value="50">50 Bots</option>
+
+</select>
+
+<div class="summary">
+
+<h3>Total Price</h3>
+
+<h1 id="price">₹199</h1>
+
+<p id="details">
+
+4 Bots • 200K Glory
+
+</p>
+
+</div>
+
+<button id="paymentBtn">
+
+Continue To Payment
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= Payment Page ================= -->
+
+<section id="paymentPage" class="payment-page">
+
+<div class="payment-card">
+
+<h1>Complete Payment</h1>
+
+<p class="payment-text">
+
+Scan QR or Pay Using UPI
+
+</p>
+
+<div class="payment-summary">
+
+<h2 id="payBot">
+
+4 Bots
+
+</h2>
+
+<p id="payGlory">
+
+200K Glory
+
+</p>
+
+<h1 id="payPrice">
+
+₹199
+
+</h1>
+
+</div>
+
+<div class="qr-box">
+
+<img src="qr.png" alt="QR">
+
+</div>
+
+<div class="upi-box">
+
+<h3>UPI ID</h3>
+
+<p id="upiId">
+
+aftabkhan767@ptyes
+
+</p>
+
+<button id="copyBtn">
+
+Copy UPI
+
+</button>
+
+</div>
+
+<div class="guild-box">
+
+<label>
+
+Guild ID
+
+</label>
+
+<input
+type="number"
+id="guildId"
+placeholder="Enter 10 Digit Guild ID"
+maxlength="10">
+
+</div>
+
+<div class="upload-box">
+
+<label>
+
+Upload Payment Screenshot
+
+</label>
+
+<input
+type="file"
+id="paymentProof"
+accept="image/*">
+
+</div>
+
+<button id="submitOrder">
+
+Submit Order
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ================= Success Popup ================= -->
+
+<div id="successPopup">
+
+<div class="success-card">
+
+<div class="success-icon">
+
+✅
+
+</div>
+
+<h2>
+
+Order Successful
+
+</h2>
+
+<p>
+
+Your order has been successfully added to your guild.
+
+</p>
+
+<button id="closeSuccess">
+
+Done
+
+</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
